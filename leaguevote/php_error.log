@@ -1,0 +1,11 @@
+[26-Jun-2022 18:26:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'League_Vote.User' doesn't exist in G:\PleskVhosts\robertprockjr.com\httpdocs\leaguevote\Controllers\Index\Recover.php:12
+Stack trace:
+#0 G:\PleskVhosts\robertprockjr.com\httpdocs\leaguevote\Controllers\Index\Recover.php(12): PDO->prepare()
+#1 {main}
+  thrown in G:\PleskVhosts\robertprockjr.com\httpdocs\leaguevote\Controllers\Index\Recover.php on line 12
+[26-Jun-2022 19:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function encryptPasswordURL() in G:\PleskVhosts\robertprockjr.com\httpdocs\leaguevote\Models\Message.php:68
+Stack trace:
+#0 G:\PleskVhosts\robertprockjr.com\httpdocs\leaguevote\Controllers\Index\Recover.php(26): Message->resetPassword()
+#1 {main}
+  thrown in G:\PleskVhosts\robertprockjr.com\httpdocs\leaguevote\Models\Message.php on line 68
+[26-Jun-2022 19:53:08 UTC] PHP Warning:  A non-numeric value encountered in G:\PleskVhosts\robertprockjr.com\httpdocs\leaguevote\Models\Message.php on line 69

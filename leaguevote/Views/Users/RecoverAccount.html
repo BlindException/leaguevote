@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Recover Your Account</title>
+    <style></style>
+    <link href="https://robertprockjr.com/leaguevote/CSS/SiteStyle.css" rel="stylesheet" />
+</head>
+<body>
+        <div class="container mx-auto mt-3 mb-5">
+        <div class="row">
+            <header class="bg-white p-3 my-5">
+                <h1  class="w-25 p-5 mb-4 mt-3 ms-3 text-start rounded-circle">LeagueVote
+                </h1>
+            </header>
+        </div>
+    </div>
+    
+    <div class="container mx-auto my-5">
+        <main role="main">
+            <div class="row">
+                <h2 class="shadow mt-2 mb-4 rounded-pill text-center w-50 p-4 mx-auto border border-3" >Account Recovery</h2>
+            </div>
+        <form  method="post" action="../../Controllers/Index/recover.php" class="needs-validation">
+            
+            <div class="row"><label for="email" class="form-label">Enter Email:</label></div>
+            <div class="row"><input type="email" id = "email" name="Email" required class ="form-control"/><div class = "valid-feedback">&check;</div><div class = "invalid-feedback">╘Enter Valid Email Address!</div></div>
+
+                
+                        <div class="row"><label for="username" class="form-check-label">Forgot Username</label>
+            <input type="radio" id = "username" name="Forgot" value="username" required class ="form-check"/>
+                             <label for="password" class="form-check-label">Forgot Password</label>
+            <input type="radio" id = "password" name="Forgot" value="password" required class ="form-check"/>
+                </div>
+                   <div class="row"><div class="g-recaptcha" data-sitekey="6LedXNEdAAAAAKsfvdo5r7A95X6jfwWh-MYfXSIU" data-callback="validateCaptcha"></div>        <input type="text" id="gResponse" name="GResponse" hidden />        </div>
+            <div class="row"><button id="submit" type="submit" class="btn btn-success">Submit</button></div> 
+    </form>        
+    </main>
+        
+    </div>
+    <div class="container-fluid mt-5 mb-3">
+        <footer class="bg-white text-center text-dark p-3 my-5 w-100">
+            
+            <div class="row">
+                <small>&copy;2022 BlindException</small>
+            </div>
+        </footer>
+    </div>        
+    <script src="https://code.jquery.com/jquery-
+3.4
+.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+</body>
+</html>
+<script>
+    var validateCaptcha = function(token) {
+                $('#gResponse').val(token);
+    }
+</script>

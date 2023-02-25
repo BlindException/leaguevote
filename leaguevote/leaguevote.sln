@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "leaguevote", "leaguevote.phpproj", "{9E647248-847D-4934-A471-462BF3901FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E647248-847D-4934-A471-462BF3901FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E647248-847D-4934-A471-462BF3901FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E647248-847D-4934-A471-462BF3901FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E647248-847D-4934-A471-462BF3901FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB02A3E0-4A0A-40B1-AE93-A6E7846D0933}
+	EndGlobalSection
+EndGlobal

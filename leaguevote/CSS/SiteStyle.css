@@ -1,0 +1,81 @@
+﻿body {
+    background-color: #311d00;
+    color: white;
+}
+h1 {
+    background-color: #311d00;
+    color: white;
+}
+h2 {
+    background-color: white;
+    color: #311d00;
+    border-color: #ff3c00;
+}
+h4 {
+    background-color: #311d00;
+   color: white;
+   padding: 1.25rem;
+   margin: 1.25rem;
+}
+p{
+    background-color: lightgray;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+}
+form {
+    background-color: lightgray;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+input {
+    background-color: white;
+    border: .3rem solid #ff3c00;
+    color: #311d00;
+    padding: 1.5rem;
+    margin: 1.5 rem;
+    text-align: left;
+}
+label {
+    text-align: left;
+    padding: 1.5 rem;
+    background-color: white;
+    color: #311d00;
+}
+
+    
+
+#menu{
+    width: 25%;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+}
+ul{
+    list-style: none;
+    }
+#newRuleBTNDiv{
+    text-align: center;
+position: fixed;
+bottom: 0;
+z-index:998;
+                      
+}
+
+#mainContainer{
+    margin-bottom: 150px;
+}
+.validInput {
+    border: .5rem solid green;
+    }
+.invalidInput {
+    border: .5rem solid red;
+}
+.validLabel {
+background-color: green;
+color: white;
+}
+.invalidLabel {
+    background-color: red;
+    color: white;
+}

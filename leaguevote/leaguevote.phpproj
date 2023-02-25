@@ -1,0 +1,11 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>9e647248-847d-4934-a471-462bf3901ff1</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RuntimeVersion>8.1</RuntimeVersion>
+    <RootNamespace>leaguevote</RootNamespace>
+    <WebRoot />
+  </PropertyGroup>
+</Project>
